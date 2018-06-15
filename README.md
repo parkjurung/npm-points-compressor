@@ -22,12 +22,12 @@ const decompressed = ptComp.decompress(compressed);
 ```
 import {compress, decompress} from 'points-compressor';
 
-const points = [
+const points: Point[] = [
   {x: 123.123, y: 321.021, z: 1132.0001},
   {x: 163.222, y: 325.322, z: 1135.0201}
 ]
-const compressed = compress(points);
-const decompressed = decompress(compressed);
+const compressed: string = compress(points);
+const decompressed: Point[] = decompress(compressed);
 // R.equals(points, decompressed) must be true
 // R means ramdajs
 ```

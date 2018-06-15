@@ -8,6 +8,10 @@
     "build": "rm -rf ./dist && tsc",
     "test": "ts-node test.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkjurung/npm-points-compressor.git"
+  },
   "keywords": [
     "compress",
     "decompress",
