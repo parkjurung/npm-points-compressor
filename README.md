@@ -43,7 +43,8 @@ const decompressed: Point[] = decompress(compressed);
 - **But if you want to exceed such limitation, please let me know by leaving issue on the Github repo.**
 
 ## Compression performance
-- 10% ~ 15%
+- **10% ~ 15%**
+- **4.6kb to 0.6kb**
 - check by running `npm run test`
 
 ## Introduction
