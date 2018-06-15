@@ -42,6 +42,9 @@ const decompressed: Point[] = decompress(compressed);
 - And it is very easy to implement the functions with such limitations.
 - **But if you want to exceed such limitation, please let me know by leaving issue on the Github repo.**
 
+## Compression performance
+- 10% ~ 15%
+- check by running `npm run test`
 
 ## Introduction
 In many case of javascript applications, it is common to send arbitrary data using JSON.stringify.  
