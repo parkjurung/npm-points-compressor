@@ -1,6 +1,6 @@
 {
   "name": "points-compressor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "It's useful to compress and decompress js points",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
