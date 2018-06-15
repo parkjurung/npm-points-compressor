@@ -1,0 +1,24 @@
+{
+  "name": "points-compressor",
+  "version": "1.0.0",
+  "description": "It's useful to compress and decompress js points",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "test": "ts-node test.ts"
+  },
+  "keywords": [
+    "compress",
+    "decompress",
+    "encode",
+    "decode"
+  ],
+  "author": "Jurung Park",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2"
+  }
+}
