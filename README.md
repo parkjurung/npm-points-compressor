@@ -6,7 +6,7 @@ $ npm install points-compressor
 ```
 ## Usage
 ### in javascript
-```
+```javascript
 const ptComp = require('points-compressor');
 
 const points = [
@@ -19,7 +19,7 @@ const decompressed = ptComp.decompress(compressed);
 // R means ramdajs
 ```
 ### in typescript
-```
+```typescript
 import {compress, decompress} from 'points-compressor';
 
 const points: Point[] = [
